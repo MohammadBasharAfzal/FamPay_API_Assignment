@@ -1,0 +1,17 @@
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+
+  app:
+    build: .
+    container_name: fampay-backend
+    restart: always
+    env_file:
+      - .env.dev
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
