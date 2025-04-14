@@ -121,18 +121,18 @@ GET http://localhost:3000/api/v1/videos/search?page=1&pageSize=10&sortBy=publish
 ### API Responses
 Here is a screenshot showing the API response when fetching video data:
 
-![Browser GET Search API](assets/screenshots/browser_search_req.png)
+![Browser GET Search API](src\assets\screenshots\browser_search_req.png)
 
-![Postman Pagination API](assets/screenshots/Postman_pagination_search.png)
+![Postman Pagination API](src\assets\screenshots\Postman_pagination_search.png)
 
-![Postman Partial Search API](assets/screenshots/Postman_partial_search.png)
+![Postman Partial Search API](src\assets\screenshots\Postman_partial_search.png)
 
 ### Logs 
 Here is a screenshot of logs:
 
-![Docker container logs](assets/screenshots/docker_container_log.png)
+![Docker container logs](src\assets\screenshots\docker_container_log.png)
 
-![Terminal Docker logs](assets/screenshots/Terminal_docker_logs.png)
+![Terminal Docker logs](src\assets\screenshots\Terminal_docker_logs.png)
 
 ---
 
