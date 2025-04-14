@@ -121,7 +121,7 @@ GET http://localhost:3000/api/v1/videos/search?page=1&pageSize=10&sortBy=publish
 ### API Responses
 Here is a screenshot showing the API response when fetching video data:
 
-![Browser GET Search API](src\assets\screenshots\browser_search_req.png)
+![Browser GET Search API](src/assets/screenshots/browser_search_req.png)
 
 ![Postman Pagination API](src\assets\screenshots\Postman_pagination_search.png)
 
